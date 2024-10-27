@@ -24,9 +24,6 @@ export interface User {
 const ReviewCard = ({
   img,
   name,
-  email,
-  sha256,
-  phone,
   onClick,
 }: {
   img: string;
